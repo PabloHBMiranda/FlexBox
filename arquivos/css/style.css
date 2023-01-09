@@ -75,11 +75,11 @@ h1{
 }
 
 .flex > div{
-    margin: 10px;
+    margin: 0 10px;
     flex: 1 1 200px;
 }
 
-.localTodo{
+/*.localTodo{
     display: flex;
 }
 
@@ -140,5 +140,12 @@ h1{
 .btnAbre{
     top: 15px;
     cursor: pointer;
-}
+}*/
 
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 780px;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
